@@ -1,0 +1,125 @@
+.first-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: lightpink; */
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+    /* height: 600px; */
+}   
+
+.aman-profile-box{
+    width: 600px;
+}
+
+.aman-profile{
+    height: 600px;
+    border-radius: 250px;
+}
+
+.main-content-box {
+    width: 800px;
+}
+
+.hello-box{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+
+.hello-box hr
+{
+    border: none;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgb(155, 79, 150);
+    margin: 5px 175px 15px 175px;
+}
+
+.author-description-box div{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+    margin-bottom: 40px;
+}
+
+.middle-section div{
+    /* background-color: lightpink; */
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+    text-indent: 50px;
+    margin-bottom: 40px;
+}
+
+.end-section-icon{
+    display: flex;
+    justify-content: center;
+    /* background-color: lightpink; */
+    margin-top: -40px;
+}
+
+.end-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 500px; */
+    margin-left: 400px;
+    margin-right: 400px;
+    /* background-color: lightpink; */
+}
+
+.resume-box,
+.portfolio-box,
+.contact-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.resume-box{
+    background-color: rgb(214, 2, 112);
+}
+
+.portfolio-box {
+    background-color: rgb(155, 79, 150);
+}
+
+.contact-box {
+    background-color: rgb(255, 255, 255);
+}
+
+.resume-box:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.portfolio-box:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.contact-box:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+hr{
+    border: none;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(155, 79, 150);
+    margin: 20px 50px 0px 50px;
+}

@@ -1,0 +1,87 @@
+.resume-main-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* background-color: lightblue; */
+}
+
+.skills-section,
+.education-section,
+.experience-section{
+    display: grid;
+    grid-template-columns: 1.1fr 3fr 1.25fr;
+}
+
+.heading1 hr{
+    border: none;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgb(155, 79, 150);
+    margin: 20px 260px 20px 260px;
+}
+
+.heading1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 75px;
+}
+.content{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.dates{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 4px;
+    /* background-color: lightpink; */
+}
+
+.content div{
+    margin-bottom: 40px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    border-radius: 2px;
+    background-color: rgb(155, 79, 150);
+    margin: 20px -110px 20px -110px;
+}
+
+.download-resume-box{
+    text-align: center;
+    background-color: rgb(191, 115, 186);
+       
+    justify-content: center;
+    margin: 0px 475px 0px 475px;
+    padding: 10px 0px 10px 0px;
+    font-size: 22px;
+    white-space: nowrap;
+    transition: 0.2s;
+    margin-bottom: 5px;
+    border-radius: 50px;
+}
+
+.download-resume-box:hover{
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 470px;
+    margin-left:  470px;
+    
+}
+
+.download-resume-box a{
+    color: white;
+}

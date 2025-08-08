@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/General.css" />
+    <link rel="stylesheet" href="styles/Header.css" />
+    <link rel="stylesheet" href="styles/MainBody-Contact-Me.css" />
+    <link rel="stylesheet" href="styles/Footer.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="plane-icon" src="icons/plane-icon.png" alt="" />
+        <div class="author-details">
+          <div class="author-name">Aman Gilani</div>
+          <div class="author-designation">M.Eng B.Eng</div>
+          <div class="author-designation">Aerospace Engineering</div>
+        </div>
+      </div>
+
+      <menu class="right-section">
+        <div class="menu">
+          <a href="Home.html">Home</a>
+        </div>
+        <div class="menu">
+          <a href="Resume.html">Resume</a>
+        </div>
+        <div class="menu">
+          <a href="Portfolio.html">Portfolio</a>
+        </div>
+        <div class="menu">
+          <a href="Community-Outreach.html">Community Outreach</a>
+        </div>
+        <div class="menu">
+          <a style="color: rgb(155, 79, 150)" href="Contact-Me.html"
+            >Contact Me</a
+          >
+        </div>
+      </menu>
+    </header>
+
+    <main class="Contact-Me-Main-Section">
+      <div>
+        <div class="contact-heading1">Contact Me</div>
+        <div class="contact-subtext">Lets get in touch</div>
+        <hr />
+      </div>
+
+      <div class="Contact-Me-Main-Box">
+        <div class="aman-profile-box">
+          <img class="aman-profile" src="pictures/Aman-Profile.jpeg" alt="" />
+        </div>
+
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          class="contact-me-form"
+        >
+          <input
+            type="hidden"
+            name="access_key"
+            value="a4804f81-ce72-4964-9c4b-f0887fc12da3"
+          />
+          <div class="first-last-name-row">
+            <div>
+              <div>First Name</div>
+              <input
+                type="text"
+                name="First Name"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div>
+              <div>Last Name</div>
+              <input
+                type="text"
+                name="Last Name"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+          </div>
+          <div class="contact-subject-row">
+            <div>
+              <div>Email Address</div>
+              <input type="text" name="email" placeholder="Email" required />
+            </div>
+            <div>
+              <div>Subject</div>
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+          </div>
+          <div class="message-submit-row">
+            <div>
+              <div>Message</div>
+              <textarea
+                name="message"
+                placeholder="Type your Message Here"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div>
+            <button class="submit-button" type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="contact-ph">
+        <div class="footer-heading">Phone Number</div>
+        <div><u>+1 (416) 887-8604</u></div>
+      </div>
+      <div class="contact-email">
+        <div class="footer-heading">Email</div>
+        <div>
+          <a href="mailto:aman.gilani@torontomu.ca"
+            ><u>aman.gilani@torontomu.ca</u></a
+          >
+        </div>
+      </div>
+      <div class="contact-linkedin">
+        <div class="footer-heading">Follow Me</div>
+        <div>
+          <a href="https://www.linkedin.com/in/aman-gilani" target="_blank"
+            ><img src="icons/linkedin-icon.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="website-owner">
+        <div class="footer-heading">&copy; Created and Owned by</div>
+        <div>Aman Gilani</div>
+        <div>All rights reserved.</div>
+      </div>
+    </footer>
+  </body>
+</html>
