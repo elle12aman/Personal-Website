@@ -39,19 +39,19 @@ hr {
 .portfolio-grid {
     margin-top: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 25px;
     row-gap: 30px;
     /* background-color: lightpink; */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 1001px) and (max-width: 1299) {
+@media (min-width: 801px) and (max-width: 1399) {
     .portfolio-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -96,5 +96,10 @@ hr {
 
 .project-grid:hover .Project-Description{
     opacity: 1;
+}
+
+a{
+    color: black;
+    border-color: black;
 }
 
