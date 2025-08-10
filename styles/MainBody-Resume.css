@@ -65,12 +65,11 @@ hr {
     background-color: rgb(191, 115, 186);
        
     justify-content: center;
-    margin: 0px 475px 0px 475px;
+    margin: 0px 475px 5px 475px;
     padding: 10px 0px 10px 0px;
     font-size: 22px;
     white-space: nowrap;
     transition: 0.2s;
-    margin-bottom: 5px;
     border-radius: 50px;
 }
 
@@ -84,4 +83,107 @@ hr {
 
 .download-resume-box a{
     color: white;
+}
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .resume-main-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* background-color: lightblue; */
+    }
+
+    .heading1 hr {
+        border: none;
+        height: 2px;
+        border-radius: 2px;
+        background-color: rgb(155, 79, 150);
+        margin: 20px 30px 20px 30px;
+    }
+
+    .heading1 {
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .skills-section,
+    .education-section,
+    .experience-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .heading2 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        padding-right: 0px;
+        width: 340px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        font-size: 16px;
+        text-align: justify;
+        line-height: 30px;
+        width: 340px;
+    }
+
+    .dates {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: right;
+        padding-top: 4px;
+        /* background-color: lightpink; */
+        display: none;
+    }
+
+    .content div {
+        margin-bottom: 40px;
+    }
+
+    hr {
+        border: none;
+        height: 3px;
+        border-radius: 2px;
+        background-color: rgb(155, 79, 150);
+        margin: 20px 0px 20px 0px;
+    }
+
+    .download-resume-box {
+        text-align: center;
+        background-color: rgb(191, 115, 186);
+
+        justify-content: center;
+        margin: 0px 50px 5px 50px;
+        padding: 10px 0px 10px 0px;
+        font-size: 22px;
+        white-space: nowrap;
+        transition: 0.2s;
+        border-radius: 50px;
+    }
+
+    .download-resume-box:hover {
+        cursor: pointer;
+        font-size: 24px;
+        margin: 0px 40px 5px 40px;
+    }
+
+    .download-resume-box a {
+        color: white;
+    }
 }

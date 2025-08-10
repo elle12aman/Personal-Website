@@ -1,21 +1,72 @@
-      .footer {
-          height: 65px;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          justify-content: space-between;
-          background-color: rgb(225, 225, 225);
-          border-style: none;
-          border-radius: 3px;
-          margin: 20px 30px 20px 30px;
-          padding: 0px 10px 0px 10px;
-      }
+    .footer {
+      height: 65px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(225, 225, 225);
+      border-style: none;
+      border-radius: 3px;
+      margin: 20px 30px 20px 30px;
+      padding: 0px 10px 0px 10px;
+    }
 
+    .contact-ph,
+    .contact-linkedin,
+    .contact-email,
+    .website-owner{
+      display: flex;
+      flex-direction: column;
+      height: 60px;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      /* background-color: lightpink; */
+    }
+
+    .footer-heading{
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .contact-linkedin img{
+      height:35px;
+      cursor: pointer;
+    }
+    
+    .contact-email a{
+      color: black;
+    }
+
+
+
+
+
+
+
+
+
+    @media (max-width:600px) {
+      .footer {
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: rgb(225, 225, 225);
+        border-style: none;
+        border-radius: 3px;
+        margin: 20px 10px 20px 10px;
+        padding: 0px 10px 0px 10px;
+      }
+      
       .contact-ph,
       .contact-linkedin,
       .contact-email,
-      .website-owner{
+      .website-owner {
         display: flex;
         flex-direction: column;
         height: 60px;
@@ -24,17 +75,18 @@
         font-size: 14px;
         /* background-color: lightpink; */
       }
-
-      .footer-heading{
+    
+      .footer-heading {
         font-weight: bold;
         font-size: 16px;
       }
-
-      .contact-linkedin img{
-        height:35px;
+    
+      .contact-linkedin img {
+        height: 35px;
         cursor: pointer;
       }
-      
-      .contact-email a{
+    
+      .contact-email a {
         color: black;
       }
+    }
