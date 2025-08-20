@@ -180,14 +180,17 @@
 }
 .resume-box{
     background-color: rgb(214, 2, 112);
+    transition: all 0.25s ease;
 }
 
 .portfolio-box {
     background-color: rgb(155, 79, 150);
+    transition: all 0.25s ease;
 }
 
 .contact-box {
     background-color: rgb(255, 255, 255);
+    transition: all 0.25s ease;
 }
 
 .resume-box:hover {

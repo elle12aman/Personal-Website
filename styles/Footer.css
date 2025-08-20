@@ -33,6 +33,12 @@
     .contact-linkedin img{
       height:35px;
       cursor: pointer;
+      transition: all 0.25s ease;
+    }
+
+    .contact-linkedin img:hover {
+      margin-bottom: -5px;
+      height: 40px;
     }
     
     .contact-email a{
