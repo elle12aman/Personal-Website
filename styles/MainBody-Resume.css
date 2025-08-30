@@ -85,7 +85,59 @@ hr {
     color: white;
 }
 
+.heading1,
+.heading1 hr,
+.skills-section {
+    animation: fade-in-translate 1s ease-in-out;
+    animation-fill-mode: both;
+}
 
+@keyframes fade-in-translate {
+    from {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+.education-section div,
+.first-exp,
+.second-exp,
+.third-exp,
+.fourth-exp,
+.resume-main-section hr,
+.experience-section .heading2 div,
+.experience-section .dates div,
+.download-resume-box {
+    animation: fade-in-translate2 1s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(98% 0%);
+}
+
+.experience-section .heading2 div,
+.experience-section .dates div {
+    animation: fade-in-translate2 5s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view();
+    animation-range-start: 10px;
+    animation-range-end: 400px;
+}
+
+@keyframes fade-in-translate2 {
+    from {
+        opacity: 0%;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
 
 
 

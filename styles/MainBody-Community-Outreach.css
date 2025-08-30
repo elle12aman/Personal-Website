@@ -63,7 +63,24 @@
 }
 
 
+.heading1,
+.tab1, 
+.tab2{
+    animation: fade-in-translate 1s ease-in-out;
+    animation-fill-mode: both;
+}
 
+@keyframes fade-in-translate {
+    from {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
 
 
 

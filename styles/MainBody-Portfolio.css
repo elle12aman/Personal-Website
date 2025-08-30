@@ -103,6 +103,45 @@ a{
     border-color: black;
 }
 
+.heading-section,
+.row1,
+.row2 {
+        animation: fade-in-translate 1s ease-in-out;
+        animation-fill-mode: both;
+    }
+
+@keyframes fade-in-translate {
+    from {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+.row3,
+.row4,
+.row5 {
+    animation: fade-in-translate2 1s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(98% 0%);
+}
+
+@keyframes fade-in-translate2 {
+    from {
+        opacity: 0%;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
 
 
 

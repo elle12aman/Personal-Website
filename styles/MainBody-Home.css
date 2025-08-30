@@ -9,6 +9,8 @@
     position: relative;
     overflow: hidden;
     mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+    animation: fade-in 3s ease-in-out;
+    animation-fill-mode: both;
 }
 
 .infinite-scroll:hover .item{
@@ -18,6 +20,15 @@
 @keyframes scrollLeft {
     to {
         left: -180px;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
     }
 }
 
@@ -90,7 +101,21 @@
     margin-left: 200px;
     margin-right: 200px;
     /* height: 600px; */
-}   
+    animation: fade-in-translate 1s ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes fade-in-translate {
+    from {
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
 
 .aman-profile-box{
     width: 600px;
@@ -141,6 +166,10 @@
     line-height: 30px;
     text-indent: 50px;
     margin-bottom: 40px;
+
+    animation: fade-in-translate2 0.75s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 .end-section-icon{
@@ -148,6 +177,10 @@
     justify-content: center;
     /* background-color: lightpink; */
     margin-top: -40px;
+
+    animation: fade-in-translate2 0.75s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 .end-section{
@@ -181,16 +214,28 @@
 .resume-box{
     background-color: rgb(214, 2, 112);
     transition: all 0.25s ease;
+
+    animation: fade-in-translate2 1s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 .portfolio-box {
     background-color: rgb(155, 79, 150);
     transition: all 0.25s ease;
+
+    animation: fade-in-translate2 1s ease-in 0.75s;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 .contact-box {
     background-color: rgb(255, 255, 255);
     transition: all 0.25s ease;
+
+    animation: fade-in-translate2 1s ease-in 1.25s;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 .resume-box:hover {
@@ -211,11 +256,24 @@ hr{
     border-radius: 2px;
     background-color: rgb(155, 79, 150);
     margin: 20px 50px 0px 50px;
+
+    animation: fade-in-translate2 1s ease-in;
+    animation-fill-mode: both;
+    animation-timeline: view(95% 0%);
 }
 
 
+@keyframes fade-in-translate2 {
+    from {
+        opacity: 0%;
+        transform: translateY(25px);
+    }
 
-
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
 
 
 
