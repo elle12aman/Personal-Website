@@ -142,6 +142,25 @@ a{
     }
 }
 
+.tool-tip {
+    background-color: grey;
+    color: white;
+    padding: 4px;
+    position: absolute;
+    border-radius: 2px;
+    font-size: 11px;
+    bottom: 40px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: roborto, arial;
+}
+
+.project-grid:hover .tool-tip{
+    opacity: 1;
+}
+
 
 
 
